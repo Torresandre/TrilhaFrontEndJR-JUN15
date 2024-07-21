@@ -1,7 +1,7 @@
 import { AvatarImage } from "@/components/ui/avatar";
 import { Avatar } from "@/components/ui/avatar";
 import { Separator } from "@/components/ui/separator";
-
+import { Card } from "@/components/ui/card"
 import { FaGithub, FaInstagramSquare, FaLinkedinIn } from "react-icons/fa";
 
 
@@ -18,15 +18,21 @@ export default function Header(){
       <h2 className="lg:text-xl text-red-600 sm: text-base ">Desenvolvedor Front-End</h2>
 
       <section className="flex flex-row gap-2 justify-between items-center p-4">
-      <a href="https://github.com/Torresandre" className="hover:text-red-600 hover:backdrop-blur-0">
+        <Card className=" p-1 border-red-600 bg-transparent hover:border-red-950">
+        <a href="https://github.com/Torresandre" className="hover:text-red-600 hover:backdrop-blur-0">
       <FaGithub className="w-8 h-8  text-white hover:text-red-600" />
       </a>
+        </Card>
+        <Card className=" p-1 border-red-600 bg-transparent hover:border-red-950">
       <a href="https://www.linkedin.com/in/andr%C3%A9-torres-9b1a65207/" className="hover:text-red-600">
       <FaLinkedinIn  className="w-8 h-8  text-white hover:text-red-600 hover:backdrop-blur-0" />
       </a>
+      </Card>
+      <Card className=" p-1 border-red-600 bg-transparent hover:border-red-950">
       <a href="https://www.instagram.com/andretorresengm/" className="hover:text-red-600 ">
       <FaInstagramSquare  className="w-8 h-8  text-white hover:text-red-600 hover:backdrop-blur-0" />
       </a>
+      </Card>
       </section>
      
     </div>

@@ -1,6 +1,7 @@
-import Image from "next/image";
+
 import Header from "./components/header";
 import AboutMe from "./components/abaout";
+import Personal from "./components/personal";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <div className=" w-full  items-center justify-between font-mono text-sm lg:flex flex-col">
        <Header/>
        <AboutMe/>
+       <Personal/>
       </div>
     </main>
   );

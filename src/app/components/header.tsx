@@ -9,9 +9,9 @@ import { FaGithub, FaInstagramSquare, FaLinkedinIn } from "react-icons/fa";
 
 export default function Header(){
   return(
-    <div className="flex flex-col items-center justify-center h-96 w-screen bg-neutral-950">
-      <Avatar className="border-red-600 border-solid border-2">
-        <AvatarImage src="https://avatars.githubusercontent.com/u/73555173?v=4" alt="Perfil GitHub"/>
+    <div className="flex p-4 flex-col items-center justify-center h-auto w-screen bg-neutral-950">
+      <Avatar className="border-red-600 border-solid border-2 ">
+        <AvatarImage src="https://avatars.githubusercontent.com/u/73555173?v=4 h-36 w-36" alt="Perfil GitHub"/>
       </Avatar>
       <h1 className="lg:text-7xl text-white  pt-6 sm: text-center text-3xl">André Torres</h1>
       <Separator className="lg:w-2/5 bg-red-600 sm: w-3/4" />

@@ -2,6 +2,7 @@
 import Header from "./components/header";
 import AboutMe from "./components/abaout";
 import Personal from "./components/personal";
+import Motivation from "./components/motivation";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
        <Header/>
        <AboutMe/>
        <Personal/>
+       <Motivation/>
       </div>
     </main>
   );

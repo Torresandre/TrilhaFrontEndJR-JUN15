@@ -1,4 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Separator } from "@/components/ui/separator";
 
 
 export default function Motivation(){
@@ -23,6 +24,7 @@ export default function Motivation(){
 
     </Card>
     </div>
+    <Separator className=" bg-red-600 h-2 w-screen mt-6" />
     </>
     
   )
